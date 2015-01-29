@@ -25,12 +25,12 @@ for o := 1 to 9 do
           turn := turn +1;
           writeln('Turn: ', turn);
           if dev = true then
-            write('   O: ',o,'T: ',t,'I: ',i,'S: ',s,'P: ',p);
+            write(' O: ',o,'T: ',t,'I: ',i,'S: ',s,'P: ',p);
           if awn * i = stop then
           begin
             writeln;
             writeln('Found solution');
-            writeln('O: ',o,'T: ',t,'I: ',i,'S: ',s,'P: ',p);
+            writeln('O:',o,' T: ',t,' I:',i,' S:',s,' P:',p);
             writeln;
             writeln(awn);
             writeln('* ',i);
